@@ -1,7 +1,7 @@
 ## Import Blender Model into Unity
 - Clone or download this repository.  
 - Open your Unity project.  
-- Drag and drop the provided `.blend` file into the **Assets** folder.  
+- Drag and drop the provided `human hand.blend` file into the **Assets** folder.  
 
 ## Create a C# Script for Control
 - In Unity, right-click inside the **Assets** folder → **Create → C# Script**.  
