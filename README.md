@@ -1,19 +1,45 @@
-## Import Blender Model into Unity
-- Clone or download this repository.  
-- Open your Unity project.  
-- Drag and drop the provided `human hand.blend` file into the **Assets** folder.  
+1. Clone the Repository
+git clone https://github.com/SamyakVarma/BionicKai.git
 
-## Create a C# Script for Control
-- In Unity, right-click inside the **Assets** folder → **Create → C# Script**.  
-- Name the script (e.g., `HandController.cs`).  
-- Open the script and add your logic, or use the sample script provided in this repo.  
 
-## Assign Bones in the Inspector
-- Select the GameObject imported from the Blender file.  
-- In the **Inspector**, you’ll see public variables (e.g., `thumbFinger1`, `indexFinger2`).  
-- Drag the corresponding bones of the hand model into these slots to link them.  
+This will create a folder named BionicKai containing the Blender model and the sample script.
 
-## Test with Sample Code
-- Attach the sample script (`hand_script.cs`) from this repo to the model.  
-- Enter **Play Mode** in Unity.  
-- Use the mapped keys to move fingers and joints.  
+2. Import Blender Model into Unity
+
+Open your Unity project.
+
+Drag and drop human hand.blend from the cloned repository into your Assets folder.
+
+3. Add the Sample Script
+
+Locate hand_script.cs in the cloned repository.
+
+Copy it into your Unity Assets folder.
+
+Select the imported hand model in the Hierarchy.
+
+Attach the script to the model by either:
+
+Right-click → Add Component → select hand_script.cs, or
+
+Drag the script onto the Inspector panel of the model.
+
+4. Assign Bone References
+
+Click the hand model in the Hierarchy.
+
+In the Inspector, under the script component, assign the correct bones:
+
+Drag indexFinger1, thumbFinger1, etc., from the Hierarchy or Scene view into the corresponding slots.
+
+5. Run & Control the Hand Model
+
+Press the Play button in Unity.
+
+Use the following keyboard keys to control fingers in real time:
+
+Finger	Keys
+Index Finger	I, O, P
+Other Fingers	Q, W, E, etc.
+
+Observe the hand model move interactively as you press the keys.
