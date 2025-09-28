@@ -14,6 +14,6 @@
 - Drag the corresponding bones of the hand model into these slots to link them.  
 
 ## Test with Sample Code
-- Attach the sample script (`SampleHandControl.cs`) from this repo to the model.  
+- Attach the sample script (`hand_script.cs`) from this repo to the model.  
 - Enter **Play Mode** in Unity.  
 - Use the mapped keys to move fingers and joints.  
